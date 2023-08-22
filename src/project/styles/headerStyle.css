@@ -1,0 +1,114 @@
+* {
+  text-align: center !important;
+}
+
+.header-wrapper {
+  width: 100%;
+  margin-bottom: 5vh;
+}
+
+.scroll-button {
+  position: fixed;
+  bottom: 15vh;
+  z-index: 2;
+  border-radius: 50%;
+  width: 4vw;
+  height: 4vw;
+  right: 8vw;
+  background-color: rgb(255, 255, 255);
+  font-size: 3vw;
+  line-height: 1.5vh;
+  color: rgb(132, 132, 132);
+  box-shadow: 4px 4px 8px rgba(23, 22, 22, 0.527);
+
+}
+
+.second-navbar {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  background-color: #fef3fc;
+  font-size: 2.5vh;
+}
+
+.fixed-header {
+  /* position: fixed;
+    z-index: 1; */
+  width: 100%;
+  background-color: #fef3fc;
+  font-size: 2.5vh;
+}
+
+.search-icon {
+  transition: all 1s;
+}
+
+.search-icon:hover {
+  rotate: -20deg;
+  opacity: 50%;
+}
+
+.icon-logo {
+  font-size: 4vh !important;
+}
+
+.qty-circle {
+  position: absolute;
+  background-color: rgb(186, 125, 124);
+  border-radius: 50%;
+  width: 2.3vh;
+  height: 2.3vh;
+  top: 1.7vh;
+  left: 0.7vh;
+  color: white;
+  font-size: 2vh;
+  line-height: 2vh;
+   outline: .2vh #fef3fc solid;
+}
+
+.icon-warper {
+  background-color: white;
+}
+
+a.nav-link {
+  color: rgba(0, 0, 0, 0.571) !important;
+  transition: all .7s;
+
+}
+
+a.nav-link:hover {
+  /* font-weight: 800; */
+  background-color: rgba(255, 255, 255, 0.612);
+  /* padding: 5px; */
+}
+
+.dropdown-menu {
+  border-radius: 0;
+}
+
+/* #collasible-nav-dropdown{
+    transition: all 5s;
+
+  } */
+#collasible-nav-dropdown::after {
+  all: unset;
+  content: " ▾";
+  margin: 0;
+
+}
+
+#collasible-nav-dropdown:hover::after {
+  all: unset;
+  content: " ▴";
+}
+
+/* .app-logo{
+    background-color: rgb(108, 40, 0);
+    padding: 1vw;
+  }
+  .app-logo h2{
+    color: rgb(255, 100, 44);
+  }
+  .app-logo h5{
+    color: white;
+  } */

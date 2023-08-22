@@ -1,0 +1,87 @@
+.container-bag {
+    margin-left: 40vw !important;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-row-gap: 5vh;
+    width: 58vw;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.container-bag img {
+    height: 25vh;
+    margin-left: 5vw;
+    border-radius: 5px;
+    /* border: 1px rgb(0, 0, 0) solid; */
+    /* box-shadow: 1px 1px 1px rgba(108, 108, 108, 0.727); */
+}
+
+.container-bag .details {
+    margin-left: 8vw;
+}
+
+.container-bag .links {
+    margin-bottom: 1vh;
+    margin-top: auto;
+    display: inline !important;
+}
+
+.container-bag .links {
+    color: rgb(110, 110, 110);
+}
+
+.wrapper-bag .payment {
+    position: absolute;
+    left: 5vw;
+    width: 20%;
+    left: 5vw;
+    align-items: center !important;
+}
+
+.links p {
+    display: inline-block;
+}
+
+.payment-button:hover:before {
+    content: "« ";
+}
+
+.payment td {
+    text-align: right !important;
+    padding: 10px;
+}
+
+.wrapper-bag Button {
+    margin-top: 4vh;
+    width: 17vw;
+}
+
+.wrapper-bag a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.596);
+    transition: all .3s;
+}
+
+.wrapper-bag a:hover{
+   
+    color: rgba(0, 0, 0, 0.785);
+}
+.payment table {
+    width: 18vw;
+}
+
+.book-qty * {
+    display: inline-block;
+    margin: 0.5vw;
+}
+
+.book-qty button {
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+}
+
+.book-qty {
+    margin-bottom: 5vh;
+}

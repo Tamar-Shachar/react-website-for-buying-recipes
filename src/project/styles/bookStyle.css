@@ -1,0 +1,66 @@
+.book-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    width: 25vw;
+    height: 30vh;
+    left: 1vw;
+    top: 68vh;
+    margin-bottom: 1vw;
+    text-align: center;
+    position: fixed;
+    background-image: url('../Images/v864batch2-mind-35-g.jpg');
+    background-size: contain;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.527);
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.grid-1 {
+    width: 10vw;
+    z-index: 2;
+    height: 30vh !important;
+}
+
+.book-wrapper .close {
+    margin-left: 9vw !important;
+    margin: 0.2vw;
+    width: 2vw;
+    font-weight: 600;
+    font-size: 3vh;
+    color: rgb(255, 0, 0);
+    padding: 0.5vw;
+    background-color: rgba(255, 255, 255, 0);
+    line-height: 3vh;
+}
+.book-details p{
+    margin: 0;
+}
+.book-details {
+    font-weight: 600;
+    font-size: 2.5vh;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 6px rgb(255, 255, 255) !important;
+    margin-bottom: 1vh;
+}
+
+.book-img {
+    height: 25vh;
+    margin-top: 2.5vh;
+}
+
+.book-buttons {
+    height: 7vh;
+}
+
+.book-buttons button {
+    font-size: 2vh;
+    background-color: white;
+    width: 100%;
+    height: 4vh;
+    transition: all 0.5s;
+    margin: .5vh 0;
+}
+.book-buttons button:hover{
+    background-color: rgb(255, 109, 109);
+
+}

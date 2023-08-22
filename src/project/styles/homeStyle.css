@@ -1,0 +1,38 @@
+/* *{
+font-family: 'Noto Sans Hebrew', sans-serif;
+} */
+.img-hover-zoom {
+  width: 17vw; /* [1.1] Set it as per your need */
+  height: 80vh;
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  margin: 0 1vw;
+  display: inline-block;
+  position: relative;
+}
+
+.img-hover-zoom .img{
+  transition: all 1.5s ease !important;
+  height: 100vh;
+}
+.img-hover-zoom h2 {
+  margin: 0;
+  padding: 0 30%;
+  transition: all 1.5s ease !important;
+  font-size: 300%;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.598);
+  font-weight: 800;
+  position: absolute;
+  top: 10%;
+  font-family: 'Amatic SC', cursive; 
+ 
+}
+.img-hover-zoom:hover h2{
+  transform: scale(2.2);
+  top: 40%;
+}
+
+.img-hover-zoom:hover .img {
+  transform: scale(1.5);
+  opacity: 70% !important;
+}

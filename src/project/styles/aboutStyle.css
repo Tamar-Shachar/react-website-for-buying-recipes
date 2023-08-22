@@ -1,0 +1,97 @@
+button.btn {
+    background-color: white !important;
+    border: 1px black solid !important;
+    color: black !important;
+    border-radius: 0 !important;
+    transition: all 1s;
+}
+
+button.btn:hover {
+    background-color: rgb(0, 0, 0) !important;
+    border: 1px rgb(255, 255, 255) solid !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.about p {
+    margin-top: 2vh;
+    margin-bottom: 8vh;
+}
+
+.about hr {
+    width: 15vw;
+    color: brown;
+    border: .25vh brown solid;
+    margin: 4vh auto;
+}
+
+.about .form-control {
+    background-color: rgba(193, 193, 193, 0.358) !important;
+    overflow: hidden;
+}
+
+.wrapper-typing-effect {
+    width: 10vw;
+    background-color: rgba(255, 255, 255, 0);
+    margin-right: 20vw;
+}
+
+.article-1,
+.article-3 {
+    border-top-left-radius: 10vw;
+    margin-left: auto;
+    margin-right: 15vw !important;
+}
+
+
+.article-2,
+.article-4 {
+    border-bottom-right-radius: 10vw;
+
+    margin-left: 10vw;
+    margin-right: auto;
+}
+
+.slider-img {
+    width: 60vw;
+}
+
+.slider-button {
+    position: absolute;
+    top: 35%;
+    font-size: 12vh;
+    font-weight: 100;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    text-shadow: 2px 2px 6px rgb(18, 18, 18);
+}
+
+.sb-1 {
+    left: 2%;
+}
+
+.sb-2 {
+    right: 2%;
+}
+
+.circles-wrapper {
+    position: absolute;
+    bottom: -.5%;
+    width: 50%;
+    left: 25%;
+
+}
+
+.circles-wrapper .circle {
+    display: inline-block;
+    border-radius: 50%;
+    width: .5vw;
+    height: .5vw;
+    background-color: rgba(44, 44, 44, 0.514);
+    margin: 0 .4vw;
+
+}
+
+#current-circle {
+    background-color: rgba(44, 44, 44, 0.849);
+
+}

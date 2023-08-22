@@ -1,0 +1,47 @@
+.adv-modal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50vw;
+    height: 75vh;
+    background-color: white;
+    margin: 10vh -10vw;
+}
+
+.adv-model-wrapper .modal-content {
+    all: unset !important;
+}
+
+
+.adv-modal .grid-1 {
+    width: 25vw;
+    margin-left: 0;
+    height: 75vh !important;
+    overflow: hidden;
+}
+
+.adv-modal img {
+    width: 25vw;
+    margin-left: 0;
+}
+
+.adv-modal .grid-2 {
+    margin: 5vh auto;
+}
+.adv-modal hr{
+    margin: 2vw;
+}
+
+.adv-model-wrapper .close {
+    position: absolute;
+    right: -25%;
+    top: -2%;
+    height:2vw;
+    width:2vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    color: black;
+    font-size: 1.5vw;
+    font-weight: 300;
+    line-height: 3vh;
+    box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.461);
+}  

@@ -1,0 +1,43 @@
+.footer{
+    margin: 0;
+    margin-top: 3vh;
+    width: 100%;
+    background-color: #fef3fc;
+    color: rgba(0, 0, 0, 0.596);
+    font-size: 2.5vh;
+    padding-top: 5vh;
+   
+    /* z-index: 1; */
+}
+.footer-grid{
+    margin: 0 1vw;
+    height: 30vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.footer-grid a{
+    display: block;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.596);
+    transition: all .3s;
+}
+.footer-grid a:hover{
+   
+    color: rgba(0, 0, 0, 0.708);
+}
+.footer-bottom{
+    font-size: 2vh;
+    height: 10vh;
+}
+.footer-bottom p{
+    margin: 0;
+}
+.remove-modal{
+    top: 20vh;
+    width: 20vw;
+    left: 40vw;
+}
+.remove-modal *{
+    align-self: center;
+    margin: 1vh;
+}
