@@ -5,7 +5,6 @@ import React from 'react';
 // import Image2 from './lesson 4/Image2';
 // import Image3 from './lesson 4/Image3';
 // import store from './redux/store';
-import Details from './lesson 5/Details';
 import AppHeader from './project/components/AppHeader';
 import { Provider } from 'react-redux';
 import Footer from './project/components/Footer';
